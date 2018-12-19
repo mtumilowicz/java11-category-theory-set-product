@@ -14,8 +14,8 @@ universal property:
 * If `X` is any object in the category, and 
 `f1 :: X -> A` and `f2 :: X -> B` are any morphisms, then 
 there exists a unique morphism `g :: X -> P` such that:
-* `f1 = fst . g`
-* `f2 = snd . g`
+    * `f1 = fst . g`
+    * `f2 = snd . g`
 
 The universal property has two parts:
 1. There exists a morphism g.
