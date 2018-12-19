@@ -40,3 +40,21 @@ We will check universal property (sketch of proof):
     ```
     h(x) = (a, b) = (f1(x), f2(x)) = g(x)
     ```
+# project description
+Basic implementation of product will be
+```
+final class Product<T1, T2> {
+
+    final T1 fst;
+
+    final T2 snd;
+
+    Product(T1 fst, T2 snd) {
+        this.fst = fst;
+        this.snd = snd;
+    }
+}
+```
+note that in **vavr** we have more complex products:
+* https://github.com/vavr-io/vavr/blob/master/vavr/src-gen/main/java/io/vavr/Tuple2.java
+* tuples provided by vavr could have up to 7 projections
