@@ -18,5 +18,25 @@ there exists a unique morphism `g :: X -> P` such that:
     * `f2 = snd . g`
 
 So the **universal property** has two parts:
-1. There exists a morphism g.
-1. The morphism g is unique.
+1. There exists a morphism `g`.
+1. The morphism `g` is unique.
+
+# cartesian product of sets is a product in the Sets category
+We will check universal property (sketch of proof):
+1. existence
+
+    ```
+    (fst . g)(x) = fst(g(x)) = fst((f1(x), f2(x))) = f1(x)
+    (snd . g)(x) = snd(g(x)) = snd((f1(x), f2(x))) = f2(x) 
+    ```
+1. uniqueness
+
+    suppose that `h` is another function that satisfies (1.)
+    ```
+    f1(x) = (fst . h)(x) = fst(h(x)) = fst((a,b)) = a
+    f2(x) = (snd . h)(x) = snd(h(x)) = snd((a,b)) = b
+    ```
+    so
+    ```
+    h(x) = (a, b) = (f1(x), f2(x)) = g(x)
+    ```
