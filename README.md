@@ -6,7 +6,7 @@ _Reference_: https://en.wikiversity.org/wiki/Introduction_to_Category_Theory/Pro
 # definition
 The **product** of objects `A` and `B` is an object `P` together with 
 the morphisms (projections):
-* `fst :: P -> A`, 
+* `fst :: P -> A`
 * `snd :: P -> B` 
 
 that satisfy the following 
