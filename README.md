@@ -23,8 +23,10 @@ So the **universal property** has two parts:
 
 # cartesian product of sets is a product in the Sets category
 We will check universal property (sketch of proof):
-1. existence
 
+let `g(x) = (f1(x), f2(x))`
+
+1. existence
     ```
     (fst . g)(x) = fst(g(x)) = fst((f1(x), f2(x))) = f1(x)
     (snd . g)(x) = snd(g(x)) = snd((f1(x), f2(x))) = f2(x) 
