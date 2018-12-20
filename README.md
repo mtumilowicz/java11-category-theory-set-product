@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/java11-category-theory-set-product.svg?branch=master)](https://travis-ci.com/mtumilowicz/java11-category-theory-set-product)
+
 # java11-category-theory-set-product
 
 _Reference_: https://bartoszmilewski.com/2015/01/07/products-and-coproducts/  
