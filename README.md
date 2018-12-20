@@ -4,8 +4,11 @@ _Reference_: https://bartoszmilewski.com/2015/01/07/products-and-coproducts/
 _Reference_: https://en.wikiversity.org/wiki/Introduction_to_Category_Theory/Products_and_Coproducts#Examples
 
 # definition
-The **product** of objects `A` and `B` is an object `P` together with 
-the morphisms (projections):
+* **Product (category theory)** is a generalisation of 
+cartesian product.
+
+The **product** of objects `A` and `B` is an object `P` together 
+with the morphisms (projections):
 * `fst :: P -> A`
 * `snd :: P -> B` 
 
