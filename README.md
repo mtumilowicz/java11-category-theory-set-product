@@ -25,10 +25,9 @@ So the **universal property** has two parts:
 1. The morphism `g` is unique.
 
 # cartesian product of sets is a product in the Sets category
-We will check universal property (sketch of proof):
-
 let `g(x) = (f1(x), f2(x))`
 
+we will check universal property (sketch of proof):
 1. existence
     ```
     (fst . g)(x) = fst(g(x)) = fst((f1(x), f2(x))) = f1(x)
